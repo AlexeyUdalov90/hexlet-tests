@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node --experimental-modules --no-warnings ./tests/capitalize.test.js"
+    "test": "npx jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AlexeyUdalov90/hexlet-tests/issues"
   },
-  "homepage": "https://github.com/AlexeyUdalov90/hexlet-tests#readme"
+  "homepage": "https://github.com/AlexeyUdalov90/hexlet-tests#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
 }
